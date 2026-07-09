@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Local-development TLS certificates & private keys (mkcert / *.test)
+# These exist at the project root and inside most sites/ subfolders.
+# NEVER publish them — the *-key.pem files are private keys.
+*.pem
+
+# Local tooling / editor config
+.claude/
+
+# Design iterations & internal build artifacts
+.iterations/
+
+# Node deps for the build toolkit
+_toolkit/node_modules/
