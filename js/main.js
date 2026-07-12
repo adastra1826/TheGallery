@@ -23,7 +23,7 @@ const wraps = [];
     li.style.setProperty('--a', r.accent);
     li.style.setProperty('--d', ((i % 3) * 0.09) + 's');
     li.innerHTML = `
-      <a class="vitrine" href="sites/${r.name}/index.html">
+      <a class="vitrine" href="sites/${r.name}/">
         <div class="shot"><img src="shots/${r.name}.jpg" width="2160" height="1350"
           alt="The front room of ${esc(r.title)}" loading="${i < 6 ? 'eager' : 'lazy'}" decoding="async"></div>
         <div class="plate">
